@@ -27,3 +27,9 @@ results/
 
 # Windows
 Thumbs.db
+
+results/*
+!results/accuracy.png
+!results/classification_report.txt
+!results/confusion_matrix.png
+!results/loss.png
