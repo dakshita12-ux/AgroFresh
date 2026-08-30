@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Dataset
+dataset/
+*.zip
+
+# Machine Learning Models
+models/*.keras
+models/*.h5
+models/*.pkl
+
+# Generated results
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
