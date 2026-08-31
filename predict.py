@@ -4,6 +4,10 @@ from tensorflow.keras.preprocessing import image
 
 from config import MODEL_DIR
 
+from tensorflow import keras
+
+
+
 
 # ============================================================
 # AGROFRESH
@@ -33,11 +37,13 @@ CLASS_NAMES = [
 
 print("\nLoading AgroFresh AI model...")
 
-model = tf.keras.models.load_model(
-    MODEL_PATH
-)
+model = tf.keras.models.load_model(MODEL_PATH)
 
 print("Model loaded successfully.")
+
+# print("Loading AgroFresh AI model...")
+# model = keras.models.load_model("models/agrofresh_mobilenetv2.keras", compile=False)
+# print("Model loaded successfully!")
 
 
 # ============================================================

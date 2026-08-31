@@ -1,11 +1,11 @@
                precision    recall  f1-score   support
 
-  freshapples       0.97      0.98      0.97       395
+  freshapples       0.96      0.99      0.97       395
   freshbanana       1.00      1.00      1.00       381
  freshoranges       0.99      0.97      0.98       388
- rottenapples       0.95      0.98      0.96       601
+ rottenapples       0.96      0.98      0.97       601
  rottenbanana       1.00      1.00      1.00       530
-rottenoranges       0.98      0.95      0.96       403
+rottenoranges       0.98      0.94      0.96       403
 
      accuracy                           0.98      2698
     macro avg       0.98      0.98      0.98      2698
